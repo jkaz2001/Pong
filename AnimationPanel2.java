@@ -15,9 +15,9 @@ public class AnimationPanel2 extends JPanel{
 	
 	// Methods
 	public void paintComponent(Graphics g){
-		g.setColor(Color.WHITE);
+		g.setColor(Color.BLACK);
 		g.fillRect(0,0,1280,720);
-		g.setColor(Color.BLUE);
+		g.setColor(Color.YELLOW);
 		g.fillOval(intBallX, intBallY, 20, 20);
 		//intBallX = intBallX + 1;
 		if(blnGoDown){
