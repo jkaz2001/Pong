@@ -9,6 +9,7 @@ public class animationprogram2 implements ActionListener, KeyListener, MouseMoti
 	JFrame theframe;
 	AnimationPanel2 thepanel;
 	Timer thetimer;
+	// Another Comment
 	
 	// Methods
 	public void mouseMoved(MouseEvent evt){
